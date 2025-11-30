@@ -27,8 +27,16 @@ const HeroSection = () => {
   const { content } = useContent();
   return (
     <section id="home" className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden z-0 bg-dark">
-      <div className="absolute inset-0 z-0">
-        <img src={content.hero.bgImage} alt="Background" className="w-full h-full object-cover opacity-30 scale-105 animate-pulse" style={{ animationDuration: '10s' }} />
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <iframe
+          src="https://www.youtube.com/embed/ijUsSpRVhBU?si=YyaPkIJMM9sbQ-TW&autoplay=1&mute=1&controls=0&loop=1&playlist=ijUsSpRVhBU"
+          title="YouTube video player"
+          className="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.78vh] -translate-x-1/2 -translate-y-1/2 opacity-40"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/50 to-transparent" />
       </div>
       
