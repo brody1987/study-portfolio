@@ -2,8 +2,8 @@ import { AppContent } from './types';
 
 export const INITIAL_CONTENT: AppContent = {
   hero: {
-    title: "Olivia Chen",
-    subtitle: "UX/UI Designer & Product Strategist",
+    title: "Heo gon",
+    subtitle: "Brand Marketer & Product Strategist",
     tagline: "Crafting intuitive digital experiences that connect with people.",
     ctaText: "Explore My Work",
     bgImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuCu9DSrPmG4vppu0NqCXWngvdUk8UafrFzFeEjBxDWfhsDsQGW1yuADt-DXW8e4FWzcOneKsoeKCyy-BpwnfCDFT23Pp5ArBx32S0rkrG2vwxF6qNMNlgcmLUvr_nAsfCoQsGJhXYqNa06R3lI6dA3mnthlvlfryW4Nk2Ohr0nrqASg3yii6WQAHA7IO58QFHoFzI1RXp7k1AXEgooDEbPlUT4FAoN3ms53SUskvEyYMhCy_0IRsii52cci8ipW4lIk83IOozxy7LM"
